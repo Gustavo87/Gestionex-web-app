@@ -12,7 +12,7 @@ mysqli_query($con,"UPDATE recoleccion SET FechaFin='$fecha_final' WHERE id=$id_r
 
 $query = "
 			select id from recoleccion where FechaFin is not NULL and id=$id_recoleccion
-		";
+	";
 		
 $result = mysqli_query($con,$query);  	
 
